@@ -1,3 +1,16 @@
 * {
-	color: lightgray;
+	margin: 0;
+	background-color: #ebe7e4;
+}
+
+.img-container {
+	height: 50vh;
+	width: 50wv;
+	position: fixed;
+	bottom: 0%;
+}
+
+img {
+	min-width: 950px;
+	width: 100%;
 }
