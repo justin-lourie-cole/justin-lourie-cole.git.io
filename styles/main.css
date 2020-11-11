@@ -13,6 +13,22 @@
 	margin: auto auto;
 }
 
+.sprint-list {
+	margin: 10px 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.sprint-links {
+	text-decoration: none;
+	color: grey;
+	transition: 0.2s ease-out;
+}
+
+.sprint-links:hover {
+	transform: scale(1.15);
+}
+
 .img-container {
 	height: 50vh;
 	position: fixed;
