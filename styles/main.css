@@ -11,6 +11,16 @@
 
 .nav-container {
 	margin: auto auto;
+	width: 30vw;
+}
+
+.name-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.title {
+	font-size: 3em;
 }
 
 .sprint-list {
@@ -27,6 +37,7 @@
 
 .sprint-links:hover {
 	transform: scale(1.15);
+	color: coral;
 }
 
 .img-container {
