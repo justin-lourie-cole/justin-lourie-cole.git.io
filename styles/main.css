@@ -29,13 +29,13 @@
 	justify-content: space-around;
 }
 
-.sprint-links {
+.sprint-link {
 	text-decoration: none;
 	color: grey;
 	transition: 0.2s ease-out;
 }
 
-.sprint-links:hover {
+.sprint-link:hover {
 	transform: scale(1.15);
 	color: coral;
 }
@@ -50,4 +50,32 @@ img {
 	max-width: 2560px;
 	min-width: 950px;
 	object-fit: cover;
+}
+
+/* the Blog */
+
+#header {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+}
+
+.header-main {
+	position: relative;
+	display: flex;
+	height: 70px;
+	border-bottom: 1px solid lightgray;
+}
+
+.box-left {
+	border-right: 1px solid lightgray;
+	min-width: 115px;
+	background-color: coral;
+}
+
+.box-right {
+	display: flex;
+	margin: auto auto;
+	font-size: 1.5em;
+	font-weight: bold;
 }
