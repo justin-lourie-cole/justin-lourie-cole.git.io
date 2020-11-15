@@ -52,7 +52,7 @@ body {
 	overflow: hidden;
 }
 
-img {
+.main-img {
 	max-width: 2560px;
 	min-width: 950px;
 	object-fit: cover;
@@ -64,6 +64,7 @@ img {
 	height: 70px;
 	width: 100%;
 	position: fixed;
+	z-index: 1;
 }
 
 .header-main {
@@ -87,11 +88,11 @@ img {
 }
 
 #content {
-	position: relative;
+	justify-content: center;
+	position: absolute;
 	top: 100px;
-	width: 100vh;
-	height: 100vh;
-	overflow: scroll;
+	width: 100%;
+	height: 100%;
 }
 
 .blog-post {
@@ -112,7 +113,6 @@ p {
 	font-weight: lighter;
 }
 
-.image-container {
-	position: relative;
-	max-height: 400px;
+figure {
+	max-width: 100%;
 }
