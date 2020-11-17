@@ -1,23 +1,20 @@
 * {
 	margin: 0;
-	background-color: #ebe7e4;
+	background-color: #f5f5f5;
 	font-family: "Raleway", sans-serif;
-	/* font-family: mon; */
+	/* font-family: "Montserrat", sans-serif; */
 }
 
 body {
-	position: relative;
 	width: 100vw;
 	height: 100vh;
 }
 
 #back-to-top {
 	position: fixed;
-	background-color: cornflowerblue;
 	bottom: 10px;
 	right: 10px;
 	padding: 10px;
-	border-radius: 25px;
 	z-index: 1;
 	text-decoration: none;
 	color: black;
@@ -25,7 +22,8 @@ body {
 }
 
 #back-to-top:hover {
-	color: White;
+	transform: scale(1.15);
+	color: coral;
 }
 
 .top-container {
@@ -99,6 +97,8 @@ body {
 }
 
 .box-right {
+	position: relative;
+	right: 50px;
 	margin: auto auto;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -117,16 +117,20 @@ body {
 	max-width: 680px;
 	margin: auto;
 	padding: 10px;
+	padding-top: 10px;
 	border-left: 1px solid lightgray;
 	border-right: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
 }
 
 .technical {
+	margin-top: 0.25rem;
 	color: cornflowerblue;
 }
 
 .cultural {
-	color: red;
+	margin-top: 0.25rem;
+	color: #f45866;
 }
 
 h4,
@@ -141,6 +145,14 @@ p {
 
 figure {
 	max-width: 100%;
+}
+
+figcaption {
+	font-family: montserrat, sans-serif;
+	font-weight: lighter;
+	color: rgba(117, 117, 117, 1);
+	display: flex;
+	justify-content: center;
 }
 
 .magnitude {
