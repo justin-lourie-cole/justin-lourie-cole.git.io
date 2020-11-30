@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles/index.css" />
+		<link rel="stylesheet" href="../styles/index.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Rubik&family=Cinzel&family=Roboto+Mono&display=swap"
@@ -19,14 +19,14 @@
 			<div class="logo-wrapper">
 				<div class="line-decoration"></div>
 				<div class="logo">
-					<a href="#" class="logo-text">&lt;Justin Cole&gt;</a
+					<a href="../index.html" class="logo-text">&lt;Justin Cole&gt;</a
 					><span class="cursor"></span>
 				</div>
 			</div>
 			<div class="menu-wrapper">
 				<div class="line-decoration-2"></div>
 				<div class="nav-bar">
-					<a href="#" class="nav-link">Home</a>
+					<a href="../index.html" class="nav-link">Home</a>
 					<a href="#" class="nav-link">About</a>
 					<a href="#" class="nav-link">Contact</a>
 				</div>
@@ -47,9 +47,8 @@
 						><a class="social-icon" href="#"><i class="fab fa-instagram"></i></a
 					></div>
 					<div class="social-link-block"
-						><a class="social-icon" href="#"><i class="fab fa-twitter"></i></a
-					></div>
-					<div class="social-link-block"
+						><a class="social-icon" href="#"><i class="fab fa-twitter"></i></a></div
+					><div class="social-link-block"
 						><a class="social-icon" href="#"><i class="fab fa-github"></i></a
 					></div>
 					<div class="my-socials-text">my socials</div>
@@ -64,46 +63,54 @@
 					>Web developer<br /><span class="subtitle">based in Auckland</span></h1
 				>
 			</div>
-			<div class="main-content-wrapper">
-				<div class="image-wrapper">
-					<div class="image">
-						<img
-							class="main-content-image"
-							src="./assets/landing-img.jpg"
-							alt="landing image"
-						/>
-					</div>
-				</div>
-				<div class="content-wrapper">
-					<div class="content"
-						><p
-							>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-							obcaecati voluptate soluta ad maxime vero ab molestiae odio consequuntur
-							veritatis, nobis esse quibusdam dicta facilis optio praesentium, laborum
-							ex aspernatur.</p
-						><p
-							>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, minima!
-							Incidunt voluptas quo dignissimos dolor distinctio aspernatur nobis
-							expedita voluptate ullam, officiis doloremque in beatae, nemo iste, hic
-							iusto eveniet.</p
-						><p
-							>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, minima!
-							Incidunt voluptas quo dignissimos dolor distinctio aspernatur nobis
-							expedita voluptate ullam, officiis doloremque in beatae, nemo iste, hic
-							iusto eveniet.</p
-						></div
-					>
-				</div> </div
+			<div class="blog-content-wrapper">
+				<div class="blog-post"
+					><h2>What does it mean to display inline vs inline blocks?</h2
+					><h4 class="technical">TECHNICAL</h4><br /><h4
+						><em><small>written by </small></em>Justin Cole</h4
+					><h6>Nov 17 2020</h6><br /><figure class="image-container"
+						><img
+							src="../assets/Inline-vs-Block.jpg"
+							alt="90 mile beach"
+							width="100%" /></figure
+					><br /><p
+						>Every HTML element has a default display value, depending on what type of
+						element it is. The two default display values are: block and inline.</p
+					><br /><h3>Display Inline</h3><br /><p
+						>An inline element does not start on a new line and it only takes up as
+						much width as necessary. Some common inline elements are: </p
+					><br /><ul
+						><li><span><</span>a<span>></span></li
+						><li><span><</span>button<span>></span></li
+						><li><span><</span>img<span>></span></li></ul
+					><br /><p
+						>If an element is given the display attribute of inline or is inline by
+						default, the height and width properties will have no effect.</p
+					><br /><p>Note: An inline element cannot contain a block-level element!</p
+					><br /><figure class="image-container"
+						><img
+							src="../assets/display-values.png"
+							alt="90 mile beach"
+							width="100%" /></figure
+					><br /><h3>Display Block</h3><br /><p
+						>A block-level element always starts on a new line and takes up the full
+						width available (stretches out to the left and right as far as it can).
+						Some common block elements are: </p
+					><br /><ul
+						><li><span><</span>div<span>></span></li
+						><li><span><</span>header<span>></span></li
+						><li><span><</span>nav<span>></span></li></ul
+					><br /></div></div
 			><div class="blogs-wrapper">
 				<div class="technical-blogs">
 					<div class="blogs-header">Technical Blogs</div>
-					<a href="./blog/positioning.html" class="blog-post-link"
+					<a href="#" class="blog-post-link"
 						><img class="blog-post-image" src="./assets/landing-img.jpg" alt="" />
 						<div class="blog-header">Relative, absolute and fixed positioning</div></a
 					>
-					<a href="./blog/display.html" class="blog-post-link"
+					<a href="#" class="blog-post-link"
 						><img class="blog-post-image" src="./assets/landing-img.jpg" alt="" />
-						<div class="blog-header">Display inline vs Inline blocks</div></a
+						<div class="blog-header">Relative, absolute and fixed positioning</div></a
 					>
 					<a href="#" class="blog-post-link"
 						><img class="blog-post-image" src="./assets/landing-img.jpg" alt="" />
@@ -112,21 +119,17 @@
 				</div>
 				<div class="cultural-blogs">
 					<div class="blogs-header">Cultural Blogs</div>
-					<a href="./blog/identity.html" class="blog-post-link"
+					<a href="./identity.html" class="blog-post-link"
 						><img class="blog-post-image" src="./assets/landing-img.jpg" alt="" />
 						<div class="blog-header">Identity, values and strengths</div></a
 					>
-					<a href="./blog/te-houtaewa.html" class="blog-post-link"
+					<a href="#" class="blog-post-link"
 						><img class="blog-post-image" src="./assets/landing-img.jpg" alt="" />
-						<div class="blog-header">The story of Te Houtaewa</div></a
+						<div class="blog-header">Relative, absolute and fixed positioning</div></a
 					>
-					<a href="./blog/learning-plan.html" class="blog-post-link"
+					<a href="#" class="blog-post-link"
 						><img class="blog-post-image" src="./assets/landing-img.jpg" alt="" />
-						<div class="blog-header">Learning Plan</div></a
-					>
-					<a href="./blog/eq.html" class="blog-post-link"
-						><img class="blog-post-image" src="./assets/landing-img.jpg" alt="" />
-						<div class="blog-header">EQ vs IQ</div></a
+						<div class="blog-header">Relative, absolute and fixed positioning</div></a
 					>
 				</div>
 			</div>

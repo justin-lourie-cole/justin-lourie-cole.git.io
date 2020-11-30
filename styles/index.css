@@ -8,7 +8,7 @@
 body {
 	position: relative;
 	margin: 0px;
-	background-image: linear-gradient(to bottom right, #ff3f33, #ff5846);
+	background-image: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
 }
 
 .container {
@@ -46,7 +46,7 @@ body {
 	.my-socials-text {
 		position: absolute;
 		transform-origin: right;
-		transform: rotateZ(-90deg) translateY(-103px) translateX(-120px);
+		transform: rotateZ(-90deg) translateY(-104px) translateX(-135px);
 	}
 
 	.main-content-wrapper {
@@ -272,7 +272,7 @@ button {
 }
 
 .subtitle {
-	color: #2838a36b;
+	color: #2c5364;
 	font-family: "Roboto Mono", monospace;
 	letter-spacing: 4px;
 	font-weight: lighter;
@@ -352,4 +352,46 @@ button {
 
 .content * {
 	z-index: 1;
+}
+
+/* blog pages */
+
+.blog-content-wrapper {
+	grid-row: 3/4;
+	grid-column: 2/4;
+	overflow: scroll;
+	overflow-x: hidden;
+	padding: 0px 20px;
+}
+
+.image-container {
+	max-width: 20vw;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: white;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #2c5364;
 }
