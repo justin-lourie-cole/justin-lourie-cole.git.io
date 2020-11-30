@@ -292,6 +292,8 @@ button {
 .blogs-wrapper {
 	grid-column: 4/5;
 	grid-row: 2/4;
+	overflow: scroll;
+	overflow-x: hidden;
 }
 
 /* .blogs-wrapper * {
@@ -376,6 +378,7 @@ button {
 	overflow: scroll;
 	overflow-x: hidden;
 	padding: 0px 20px;
+	border-top: 1px solid white;
 	/* box-shadow: inset 10px 10px 50px 5px #00000017; */
 }
 
