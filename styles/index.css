@@ -398,7 +398,9 @@ button {
 }
 
 .image-container {
-	max-width: 20vw;
+	/* max-width: 20vw; */
+	display: flex;
+	justify-content: center;
 }
 
 .video-container {
